@@ -1,5 +1,4 @@
 import { protectRoute } from "../middleware/auth.middleware.js"
-import Message from "../models/message.model.js"
 import { getMessages, getUsers, sendMessage } from "../controllers/message.controller.js"
 import express from "express"
 
